@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "48c4629759aa09852e74f14f62b6dfffa3e7afbd1eed964324a2c712f78585b6"
+            "sha256": "6b85853a7dfaf9b4b7b901297c617c8732ec6acb16c99a24098dd3d50dab9187"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -34,11 +34,11 @@
         },
         "cattrs": {
             "hashes": [
-                "sha256:211800f725cdecedcbcf4c753bbd22d248312b37d130f06045434acb7d9b34e1",
-                "sha256:35dd9063244263e63bd0bd24ea61e3015b00272cead084b2c40d788b0f857c46"
+                "sha256:94b67b64cf92c994f8784c40c082177dc916e0489a73a9a36b24eb18a9db40c6",
+                "sha256:d55c477b4672f93606e992049f15d526dc7867e6c756cd6256d4af92e2b1e364"
             ],
             "markers": "python_version >= '3.7' and python_version < '4'",
-            "version": "==1.10.0"
+            "version": "==22.1.0"
         },
         "certifi": {
             "hashes": [
@@ -78,6 +78,14 @@
             ],
             "index": "pypi",
             "version": "==1.2.13"
+        },
+        "exceptiongroup": {
+            "hashes": [
+                "sha256:6990c24f06b8d33c8065cfe43e5e8a4bfa384e0358be036af9cc60b6321bd11a",
+                "sha256:ab0a968e1ef769e55d9a596f4a89f7be9ffedbc9fdefdb77cc68cf5c33ce1035"
+            ],
+            "markers": "python_full_version >= '3.10.0' and python_full_version < '4.0.0'",
+            "version": "==1.0.0rc8"
         },
         "idna": {
             "hashes": [
@@ -199,11 +207,11 @@
         },
         "requests-cache": {
             "hashes": [
-                "sha256:3e3384c48dca231ee4c49e7ba53162bc0d99e16721baf085bfba1552d065d151",
-                "sha256:7737f83f0f48481a904bb9a9402233db5090931e46f9644c502646a573848d35"
+                "sha256:5343132acc8ca4d7810305aa1e8e46367e9c7c8379f7aea4e8c05f401499fc43",
+                "sha256:bd67575f541f9c10f44f8b49d8d449fb55db8af2e27d93c56349f227b78e4b70"
             ],
             "index": "pypi",
-            "version": "==0.9.1"
+            "version": "==0.9.5"
         },
         "requests-oauthlib": {
             "hashes": [
