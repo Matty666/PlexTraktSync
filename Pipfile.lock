@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "48c4629759aa09852e74f14f62b6dfffa3e7afbd1eed964324a2c712f78585b6"
+            "sha256": "1e6eea8d2e9d51aa0df95f93fcb946480ba9c105da3febdf2102a15cdff33303"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -37,7 +37,7 @@
                 "sha256:211800f725cdecedcbcf4c753bbd22d248312b37d130f06045434acb7d9b34e1",
                 "sha256:35dd9063244263e63bd0bd24ea61e3015b00272cead084b2c40d788b0f857c46"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
             "version": "==1.10.0"
         },
         "certifi": {
@@ -108,7 +108,7 @@
                 "sha256:5f50d5b2b3207fa72e7ec0ef08372ef652685470974a107d0d4999fc5a903a96",
                 "sha256:717ea765dd10b63618e7298b2d98efd819e0b30cd5905c9707223dceeb94b3f1"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
             "version": "==0.3.4"
         },
         "plexapi": {
@@ -145,10 +145,11 @@
         },
         "python-git-info": {
             "hashes": [
-                "sha256:07eb10e9e7d9510db0866a85902825a138ee618b08f8104e834b6758ae8623c8"
+                "sha256:4a5316182341dd83651622521d6998ccc0b56892b8ea152f81b6dd373b01e929",
+                "sha256:ac9484f6a088ade2a9433fc0904a50d54f24a11942f29fa6ae96deb778d51c26"
             ],
             "index": "pypi",
-            "version": "==0.7.1"
+            "version": "==0.7.6"
         },
         "pyyaml": {
             "hashes": [
