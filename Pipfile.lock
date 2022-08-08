@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "48c4629759aa09852e74f14f62b6dfffa3e7afbd1eed964324a2c712f78585b6"
+            "sha256": "482e7dfe6b984c0735e6310212499b80f7ad07752cad7ff6968f00e0c4ada8ae"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -113,11 +113,11 @@
         },
         "plexapi": {
             "hashes": [
-                "sha256:7b37f8491d87f893cb91bfe845adf94a7fe72cf7e35f371a9281f2ae7e5d4189",
-                "sha256:917d1cda3939c9f7de399579d7584deb9b3c5e1795a3164643bb150f65fd3862"
+                "sha256:699861dc12ecf2a79d6ab753f97f5375cb4f912f3466a308ab2e79886af882c8",
+                "sha256:7ad13983a88034e2c0b4574e060a9e6f62b9dab0b0e646f5f1a76e2707ffc34d"
             ],
             "index": "pypi",
-            "version": "==4.11.2"
+            "version": "==4.12.1"
         },
         "prompt-toolkit": {
             "hashes": [
