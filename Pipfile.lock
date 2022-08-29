@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "833bc28cc43306f32824b048056d71aa10522e7d6c03063096f9fa4bfce33061"
+            "sha256": "1d2663828718650dd0eab7ac507ab822de7343b6fa3fa328f146d074c87f604d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -45,7 +45,7 @@
                 "sha256:84c85a9078b11105f04f3036a9482ae10e4621616db313fe045dd24743a0820d",
                 "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2022.6.15"
         },
         "charset-normalizer": {
@@ -53,7 +53,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.1.1"
         },
         "click": {
@@ -100,7 +100,7 @@
                 "sha256:23a8208d75b902797ea29fd31fa80a15ed9dc2c6c16fe73f5d346f83f6fa27a2",
                 "sha256:6db33440354787f9b7f3a6dbd4febf5d0f93758354060e802f6c06cb493022fe"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.2.0"
         },
         "pfzy": {
@@ -113,11 +113,11 @@
         },
         "plexapi": {
             "hashes": [
-                "sha256:699861dc12ecf2a79d6ab753f97f5375cb4f912f3466a308ab2e79886af882c8",
-                "sha256:7ad13983a88034e2c0b4574e060a9e6f62b9dab0b0e646f5f1a76e2707ffc34d"
+                "sha256:4d442caaecf58fe6abd962b6ca24627387b031c17b84e9d063a75f05abf5684b",
+                "sha256:86e92cdb2fa6f38f7c518ef42144cd5276a69b083d0df95e9a9fede881e1fa83"
             ],
             "index": "pypi",
-            "version": "==4.12.1"
+            "version": "==4.13.0"
         },
         "prompt-toolkit": {
             "hashes": [
@@ -132,7 +132,7 @@
                 "sha256:56a8508ae95f98e2b9bdf93a6be5ae3f7d8af858b43e02c5a2ff083726be40c1",
                 "sha256:f643f331ab57ba3c9d89212ee4a2dabc6e94f117cf4eefde99a0574720d14c42"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.13.0"
         },
         "python-dotenv": {
