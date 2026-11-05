@@ -40,6 +40,7 @@ jobs:
             APP_VERSION=${GITHUB_REF#refs/tags/}
           else
             git fetch --tags --unshallow
+            git fetch https://github.com/Taxel/PlexTraktSync.git 'refs/tags/*:refs/tags/*'
             APP_VERSION=$(git describe --tags)_${GITHUB_REF#refs/heads/}
           fi
           echo "version=$APP_VERSION" >> $GITHUB_OUTPUT
@@ -56,6 +57,8 @@ jobs:
         uses: docker/metadata-action@v6
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          labels: |
+            org.opencontainers.image.version=${{ steps.vars.outputs.version }}
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}

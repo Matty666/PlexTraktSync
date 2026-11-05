@@ -1,5 +1,16 @@
 # Plex-Trakt-Sync
 
+## Matty666 fork
+
+This fork tracks Taxel/PlexTraktSync and adds rate-limit handling to episode lookup tables.
+HTTP 429 responses use the existing Retry-After handler. Exhausted retries stop the sync instead of skipping the remaining items.
+
+Fork snapshot images use `ghcr.io/matty666/plextraktsync:main`. Pin the image by digest in production.
+The build reads upstream release tags for version metadata without publishing those tags to this fork.
+The image records its application version and source commit in OCI labels.
+A snapshot build does not create an upstream release or change synchronization settings.
+
+
 ![Python Versions][python-versions-badge]
 
 This project adds a two-way-sync between trakt.tv and Plex Media Server. It
