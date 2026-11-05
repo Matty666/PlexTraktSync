@@ -3,6 +3,7 @@ from __future__ import annotations
 from functools import cached_property
 from typing import TYPE_CHECKING
 
+from plextraktsync.decorators.rate_limit import rate_limit
 from plextraktsync.decorators.retry import retry
 from plextraktsync.factory import logging
 
@@ -27,6 +28,7 @@ class TraktLookup:
         self.same_order = True
 
     @cached_property
+    @rate_limit()
     @retry()
     def table(self):
         """
