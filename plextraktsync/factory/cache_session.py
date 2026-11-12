@@ -42,7 +42,7 @@ class CachedSession(RequestsCachedSession):
         ):
             return response
 
-        if response.from_cache:
+        if response.from_cache and not response.revalidated:
             stats.hits += 1
         else:
             stats.misses += 1
