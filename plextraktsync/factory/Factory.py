@@ -134,7 +134,7 @@ class Factory:
 
     @cached_property
     def session(self):
-        from requests_cache import CachedSession
+        from plextraktsync.factory.cache_session import CachedSession
 
         return CachedSession(
             cache_name=self.config.cache_path,

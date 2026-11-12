@@ -65,10 +65,17 @@ def sync(
         print("Nothing to sync, this is likely due conflicting options given.")
         return
 
-    with measure_time("Completed full sync"):
+    with factory.session.collect_lookup_stats() as stats, measure_time("Completed full sync"):
         runner = factory.sync
         if runner.config.need_library_walk:
             w.print_plan(print=logger.info)
         if dry_run:
             logger.info("Enabled dry-run mode: not making actual changes")
         run_async(runner, walker=w, dry_run=config.dry_run)
+
+    logger.info(
+        "Trakt ID lookup cache: hits=%d misses=%d empty_results=%d",
+        stats.hits,
+        stats.misses,
+        stats.empty_results,
+    )
